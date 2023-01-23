@@ -1,49 +1,168 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- font awesome link -->
+    <script
+      src="https://kit.fontawesome.com/f7ba3dfbe8.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles/style.css" />
     <title>legal-solution</title>
   </head>
   <body>
-       <!-- header-section start -->
-       <nav class="navbar navbar-expand-lg navbar-light   container">
+    <!-- header-section start -->
+    <header>
+        <!-- navbar- -->
+    <nav class="navbar navbar-expand-lg navbar-light container">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo2.png" alt="" />
+          </a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">Hidden brand</a>
             <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+              <li class="nav-item ms-2">
+                <a class="nav-link" href="#"
+                  >Services<i class="fa-solid fa-angle-right"></i
+                ></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <li class="nav-item ms-2">
+                <a class="nav-link" href="#"
+                  >Cases <i class="fa-solid fa-angle-right"></i
+                ></a>
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link" href="#"
+                  >Blog <i class="fa-solid fa-angle-right"></i
+                ></a>
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link" href="#"
+                  >Contact Us <i class="fa-solid fa-angle-right"></i
+                ></a>
               </li>
             </ul>
-            <form class="d-flex ">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+  
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn bg-clr text-white"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+            Free Consultation
+            </button>
+  
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Modal title
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">...</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
-       <!-- header-section end -->
+     <!-- banner-section -->
+       <section class="container">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class=" carousel-item active">
+              <div class="banner-img-1 d-flex justify-content-center align-items-center w-100 ">
+                <div class="text-center">
+                  <h1 class="text-white display-3 font-Em-Garamond fw-bold">
+                    We Provide Effective <br>
+                    Legal Solutions
+                  </h1>
+                  <p class="text-white w-20%">
+                    There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.
+                  </p>
+                  <form class="d-flex">
+                    <input class="form-control me-2 py-2" type="search" placeholder="Search your Services" aria-label="Search">
+                    <button class="btn text-white bg-clr" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+             
+          </div>
+         
+        </div>
+      </section>
 
-    
+
+
+       </section>
+
+    </header>
+
+    <!-- header-section end -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
