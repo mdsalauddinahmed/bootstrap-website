@@ -2,7 +2,7 @@
  .font-Em-Garamond{
     font-family: 'EB Garamond';
  }
- .banner-img-1{
+ .banner-img{
     background-image: url('/images/banner.png');
     height: 80vh;
     background-size:cover;
@@ -15,7 +15,29 @@
     width: 25px;
     height: 25px;
     font-size: 15px;
-    
-     
     border-radius: 50%;
   }
+  .slider-img-1{
+    background-image: url(/images/slider-1.jpg);
+    height: 75vh;
+    background-size:cover;
+    
+  }
+  .slider-img-2{
+    background-image: url(/images/slider-2.jpg);
+    height: 75vh;
+    background-size:cover;
+  }
+  .slider-img-3{
+    background-image: url(/images/slider-3.jpg);
+    height: 75vh;
+    background-size:cover;
+  }
+  .slider-author-img{
+    
+    width: 60px;
+    height: 60px;
+     
+    border-radius: 50%;
+
+}
