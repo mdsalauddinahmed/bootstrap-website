@@ -10,3 +10,12 @@
   .bg-clr{
     background-color: #B68C5A;
   }
+  .logo-bg{
+    padding-top: 5px;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    
+     
+    border-radius: 50%;
+  }
